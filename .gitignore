@@ -1,7 +1,6 @@
 # Compiled source #
 ###################
 *.com
-*.class
 *.dll
 *.exe
 *.o
@@ -35,4 +34,16 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-/build
+.gradle/
+build/
+
+# Editor Droppings #
+####################
+.idea
+
+# Tag files produced by exuberant ctags #
+#########################################
+TAGS
+!TAGS/
+tags
+!tags/
